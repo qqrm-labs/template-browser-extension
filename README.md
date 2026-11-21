@@ -2,6 +2,11 @@
 
 Template repository for cross-browser extension delivery with GitHub Actions.
 
+[Agent instructions](AGENTS.md) describe property tests, mutation tests, and real
+browser integration checks. Additional tools are selection guidance, not
+preinstalled CI checks. Files copied from this template do not update existing
+derived repositories automatically.
+
 ## Included
 - CI (`.github/workflows/ci.yml`)
 - Manual deploy workflow for Firefox AMO and Chrome Web Store (`.github/workflows/release.yml`)
